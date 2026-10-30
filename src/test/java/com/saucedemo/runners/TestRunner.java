@@ -6,7 +6,7 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
         features = "src/test/resources/features",
-        tags = "@Logout",
+        // tags = "@Logout",
         glue = {"com.saucedemo"},
         plugin = {
                 "pretty",
